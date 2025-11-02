@@ -1,14 +1,14 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "index.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "index.js" }
-  ]
-}
-{
   "name": "assisten",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
