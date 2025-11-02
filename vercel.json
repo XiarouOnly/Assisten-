@@ -7,3 +7,8 @@
     { "src": "/(.*)", "dest": "index.js" }
   ]
 }
+{
+  "name": "assisten",
+  "version": "1.0.0",
+  "type": "module"
+}
